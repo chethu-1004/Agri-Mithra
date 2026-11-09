@@ -1,0 +1,28 @@
+# Private configuration
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python/runtime artifacts
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/*.log
+
+# Local uploads and generated retrieval vectors
+backend/backend/uploads/*
+!backend/backend/uploads/.gitkeep
+backend/backend/knowledge/agriculture_index.json
+backend/backend/knowledge/agriculture_index.json.tmp
+
+# PostgreSQL dumps can contain farmer and account data
+backend/backups/
+
+# Ignore all virtual environments
+**/venv/
+**/venv_tf311/
+**/.venv/
+**/.vscode/
+

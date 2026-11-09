@@ -1,0 +1,36 @@
+# Python environments
+venv/
+venv_tf311/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Datasets
+datasets/
+data/
+
+# AI models
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Temporary files
+uploads/
+temp/
+*.log

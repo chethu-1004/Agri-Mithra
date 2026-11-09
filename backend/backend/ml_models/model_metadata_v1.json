@@ -1,0 +1,13 @@
+{
+  "model_name": "EfficientNetB0",
+  "version": "v1",
+  "image_size": [224, 224],
+  "num_classes": 0,
+  "classes": [],
+  "datasets": ["PlantVillage", "PlantDoc", "PlantWild"],
+  "training_date": "",
+  "tensorflow_version": "",
+  "random_seed": 42,
+  "metrics": {},
+  "status": "MODEL_NOT_INSTALLED"
+}
